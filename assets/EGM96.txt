@@ -1,0 +1,7 @@
+The binary grid contains NGA EGM96 geoid undulations in centimeters, encoded as
+signed, big-endian 16-bit integers and compressed with gzip. The grid is 1440 by
+721, starts at longitude -180 and latitude +90, and has 0.25-degree spacing.
+
+Source: https://cdn.proj.org/us_nga_egm96_15.tif
+License: Public domain.
+Source details: https://github.com/OSGeo/PROJ-data/blob/master/us_nga/us_nga_README.txt
